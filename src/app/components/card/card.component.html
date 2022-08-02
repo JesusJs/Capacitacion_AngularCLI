@@ -1,0 +1,14 @@
+<div class="row">
+  <div
+    class="card pt-5 col-sm-12 col-md-4 col-lg-4"
+    style="display: flex; justify-content: center; align-items: center"
+    *ngFor="let card of cards"
+  >
+    <img [src]="card.image" class="card-img-top" alt="..." />
+    <div class="card-body">
+      <h5 class="card-title">{{ card.title }}</h5>
+      <p class="card-text">{{ card.name }}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
