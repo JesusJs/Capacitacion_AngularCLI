@@ -7,10 +7,13 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PersonajesComponent } from './components/personajes/personajes.component';
+import { HttpClientModule} from '@angular/common/http';
+
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, CardComponent, FooterComponent],
-  imports: [BrowserModule, AppRoutingModule],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, CardComponent, FooterComponent, PersonajesComponent],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
