@@ -1,0 +1,17 @@
+<button class="btn btn-primary m-5" (click)="mostrar = !mostrar">
+  {{ mostrar ? "Ocultar" : "Mostrar" }}
+</button>
+
+<div class="card" style="width: 30rem" *ngIf="mostrar">
+  <img
+    src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
+    class="card-img-top"
+    alt="..."
+  />
+  <div class="card-body">
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of
+      the card's content.
+    </p>
+  </div>
+</div>

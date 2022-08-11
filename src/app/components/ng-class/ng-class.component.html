@@ -1,0 +1,17 @@
+<h1 class="mt-5" [ngClass]="changeText">Prueba de colores</h1>
+
+<button
+  type="button"
+  class="btn btn-info m-5"
+  (click)="changeText = 'alert-info'"
+>
+  Info
+</button>
+
+<button
+  type="button"
+  class="btn btn-success"
+  (click)="changeText = 'alert-success'"
+>
+  Success
+</button>
