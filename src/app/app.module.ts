@@ -7,9 +7,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { CardComponent } from './components/card/card.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { InputFilterComponent } from './components/input-filter/input-filter.component';
 
 @NgModule({
-  declarations: [AppComponent, NavbarComponent, HomeComponent, CardComponent, FooterComponent],
+  declarations: [AppComponent, NavbarComponent, HomeComponent, CardComponent, FooterComponent, InputFilterComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
